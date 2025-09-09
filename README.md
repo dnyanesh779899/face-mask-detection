@@ -1,18 +1,36 @@
 Face Mask Detection 😷
+📌 Objective
 
-A computer vision project that uses TensorFlow and OpenCV to detect if a person is wearing a face mask.
-The model is trained on images of people with masks and without masks.
+Detect whether a person is wearing a face mask using computer vision.
 
-Features
+🛠️ Approach
 
-CNN-based binary image classification (mask / no mask)
+Collected and preprocessed images of people with masks and without masks.
 
-Face detection using OpenCV Haar Cascades
+Built and trained a CNN model using TensorFlow/Keras.
 
-Data augmentation for robust training
+Used OpenCV for face detection and preprocessing.
 
-Applications in public safety monitoring (airports, hospitals, offices, malls)
+Evaluated performance using accuracy, precision, recall, and F1-score.
 
-Tech Stack
+🎯 Skills Learned
 
-Python, TensorFlow/Keras, OpenCV, NumPy
+Image classification
+
+Object detection
+
+Model training and evaluation
+
+🌍 Real-World Application
+
+Public safety checks in areas requiring mask-wearing (e.g., airports, hospitals, offices, malls).
+
+💻 Tech Stack
+
+Python
+
+TensorFlow/Keras
+
+OpenCV
+
+NumPy
